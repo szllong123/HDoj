@@ -2,3 +2,6 @@
 *.o
 *.swp
 *~
+*.obj
+*~
+./exeFile/
