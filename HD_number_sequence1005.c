@@ -9,6 +9,7 @@
 #include<stdlib.h>
 #include<string.h>
 
+#define mod_num 7
 
 int main(int argc, char *argv[])
 {
@@ -25,7 +26,7 @@ int main(int argc, char *argv[])
 
 		first_num = 1, second_num = 1, third_num = 0;
 		for(i = 2; i < n; i++){
-			third_num = (A * second_num + B * first_num) % 7;
+			third_num = (A * second_num + B * first_num) % mod_num;
 			first_num = second_num;
 			second_num = third_num;
 		}
