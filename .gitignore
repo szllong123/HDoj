@@ -5,3 +5,5 @@
 *.obj
 *~
 ./exeFile/
+test/
+*.bak
