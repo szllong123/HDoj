@@ -7,3 +7,9 @@
 ./exeFile/
 test/
 *.bak
+*/Debug
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+
