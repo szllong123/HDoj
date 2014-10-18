@@ -7,9 +7,15 @@
 ./exeFile/
 test/
 *.bak
-*/Debug
+/Debug
 *.sdf
 *.sln
 *.vcxproj
 *.filters
 
+*.tlog
+*.log
+*.lastbuildstate
+*.obj
+*.idb
+*.pdb
